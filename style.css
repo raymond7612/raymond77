@@ -1,79 +1,25 @@
-
- .body{
-    margin:0;
-    padding:0;
-    font-family:Arial,sans-serif;
-    background: #f8f9f8;
+body {
+    background-color: #f8f9fa;
 }
 
-.navbar{
-background: #ffffff;
-    padding: 25px 60px;
-    display: flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-.nav-links a, .nav-left a
-{
-    margin-right: 25px;
-    text-decoration: none;
-    color: #555;
-   font-weight: 500; 
-   font-size: 14px;
-}
- 
-.nav-link a{
-    padding: 0px;
-}
-
-.hero{
+/* HERO SECTION */
+.hero {
+    padding: 120px 0 80px;
     text-align: center;
-    padding: 60px 20px;
 }
 
-.btn{
-    background: rgba(21,166, 250);
-    color:#ffffff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 10px;
-
-
-
+/* SEARCH BOX */
+.search-box {
+    max-width: 550px;
+    margin: auto;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
-
-.cd{
-    
-    background: #e5f1f3;
-    padding:40px;
-    max-width: 1100px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    border-radius: 16px;
-    gap: 25px;
-
-}
-
-
-.cd .person{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    object-fit: cover;
-
-}
-
-
-.cd p{
-    color: #555555;
-    line-height: 1.6;
-    margin-bottom: 10px;
-
-}
-
-.btn i{
-    margin-right: 8px;
+/* TESTIMONIAL BOX */
+.testimonial-box {
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.08);
 }
